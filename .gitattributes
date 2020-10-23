@@ -1,0 +1,7 @@
+# Prevent problems with line endings of the deployment files when uploading
+# Git will understand that the files specified are not text, and it should not try to change them.
+# The binary setting is also an alias for -text -diff.
+
+*.manifest binary
+*.application binary
+*.deploy binary
